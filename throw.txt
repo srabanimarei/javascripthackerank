@@ -1,0 +1,11 @@
+switch (Math.sign(a)) {
+        case -1:
+            throw new Error('Negative Error');
+            break;
+        case 0:
+            throw new Error('Zero Error');
+            break;
+        case 1:
+            return "YES";
+            break;
+    }
